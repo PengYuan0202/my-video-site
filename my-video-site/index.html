@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Python 服务器视频嵌入示例</title>
+    <style>
+        /* 可选：添加基本样式 */
+        body {
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        video {
+            max-width: 80%;
+            margin: 20px auto;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>我的视频播放页面</h1>
+    <video controls width="800">
+        <source src="myvideo.mp4" type="video/mp4">
+        您的浏览器不支持视频播放，请尝试更新浏览器或
+        <a href="myvideo.mp4" download>下载视频</a>。
+    </video>
+</body>
+</html>
